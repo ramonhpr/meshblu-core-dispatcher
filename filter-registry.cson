@@ -160,8 +160,9 @@ HandleDeliverMessage:
       on:
         204: 'publish-message'
     'publish-message':
-      task: 'meshblu-core-task-publish-message'
+      task: 'meshblu-core-task-knot-manager'
       cacheNamespace: 'meshblu'
+      datastoreCollection: 'messages'
       on:
         204: 'publish-subscriptions'
     'publish-subscriptions':

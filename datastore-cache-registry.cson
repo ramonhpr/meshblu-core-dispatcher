@@ -14,3 +14,10 @@ tokens:
     'uuid'
     'hashedToken'
   ]
+messages:
+  cacheAttributes: [
+    'fromUuid'
+    'toUuid'
+    'messageType'
+    'payload'
+  ]
